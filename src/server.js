@@ -43,5 +43,5 @@ app.use((error, request, response, next) => {
 })
 
 //Informando o express a porta
-const LINK = 'https://gislaine-j-silva.github.io/api-rocketnotes/';
-app.listen(PORT, () => console.log(`Server is running on Port ${LINK}`))
+const PORT = 3333;
+app.listen(PORT, () => console.log(`Server is running on Port ${PORT}`))
